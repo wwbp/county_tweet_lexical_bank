@@ -29,11 +29,11 @@ Facebook topics are available [here](https://github.com/wwbp/facebook_topics).
 Please cite the following paper if you use this data. 
 
 ```
-@inproceedings{giorgi2018remarkable, 
-				     title={The Remarkable Benefit of User-Level Aggregation for Lexical-based Population-Level Predictions}, 
-				     author={Giorgi, Salvatore and Preotiuc-Pietro, Daniel and Buffone, Anneke and Rieman, Daniel and Ungar, Lyle H. and Schwartz, H. Andrew}, 
-				     booktitle={Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing}, 
-				     year={2018}
+@inproceedings{giorgi2018remarkable,
+    title={The Remarkable Benefit of User-Level Aggregation for Lexical-based Population-Level Predictions}, 
+    author={Giorgi, Salvatore and Preotiuc-Pietro, Daniel and Buffone, Anneke and Rieman, Daniel and Ungar, Lyle H. and Schwartz, H. Andrew}, 
+    booktitle={Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing}, 
+    year={2018}
 }
 ```
 
