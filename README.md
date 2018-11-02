@@ -1,18 +1,20 @@
 # County Tweet Lexical Bank
 
-County level word and topic loading derived from a 10% Twitter sample from 2009-2015. 
+County level word and topic loading derived from a 10% Twitter sample from 2009-2015. Anonymized linguistic features extracted from over 1.5 billion English U.S County mapped tweets.
 
 Read the full publication [here](http://wwbp.org/publications.html#p122). 
 
 ## Data
 
-Available in both csv format and as a MySQL dump.
+Available in both csv format and as a MySQL dump. All tables are in sparse (long) format.
 
-### 1grams
+### Unigrams
+
+Approximately 24,000 most frequenct unigrams. All urls replaced with `<URL>` and @-mentions replaced with `<USER>`.
 
 * `group_id`: County FIPS code
-* `feat`: 1gram
-* `value`: Number of times the 1gram was used by the county
+* `feat`: unigram
+* `value`: Number of times the unigram was used by the county
 * `group_norm`: Average number of times the feature was used by the county (`value / number of users in county`)
 
 ### Facebook Topics
@@ -23,6 +25,21 @@ Facebook topics are available [here](https://github.com/wwbp/facebook_topics).
 * `feat`: Topic id
 * `value`: Number of times a word in the topic was used by the county
 * `group_norm`: Relative frequency of topic use by county
+
+## Data Processing
+
+Twitter data was processed using the following rules:
+
+1. Each tweet was mapped to a U.S. County using tweet level latitude / longitude information and user level profile free text ([full details here](http://wwbp.org/publications.html#p8)).
+2. Filtered for English using [langid](https://github.com/saffsd/langid.py).
+3. Users with less than 30 tweets were removed.
+4. Counties with less than 100 users were removed.
+
+Linguistic features process:
+
+1. Unigram relative frequencies extracted for each user.
+2. User level relative frequencies are averaged to the county.
+3. Topic loadings calculated using county level unigram relative frequencies.
 
 ## Citation
 
