@@ -58,3 +58,6 @@ Please cite the following paper if you use this data.
 
 Licensed under a GNU General Public License v3 (GPLv3).
 
+## Background
+
+Developed by the [World Well-Being Project](http://www.wwbp.org) based out of the University of Pennsylvania and Stony Brook University.
