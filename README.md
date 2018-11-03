@@ -19,7 +19,7 @@ Approximately 24,000 most frequenct unigrams. All urls replaced with `<URL>` and
 
 ### Facebook Topics
 
-Topic loadings per county using a set of 2000 topics captured in over 14 million Facebook status updates derived via Latent Dirichlet Allocation (LDA) ([see full reference](http://wwbp.org/publications.html#p7)). Topics, words per topic and conditional probailities available [here](https://github.com/wwbp/facebook_topics).
+Topic loadings per county using a set of 2000 topics captured in over 14 million Facebook status updates derived via Latent Dirichlet Allocation (LDA) ([see full details on topic derivation](http://wwbp.org/publications.html#p7)). Topics, words per topic and conditional probailities available [here](https://github.com/wwbp/facebook_topics).
 
 * `group_id`: County FIPS code
 * `feat`: Topic id
