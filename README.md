@@ -1,5 +1,7 @@
 # County Tweet Lexical Bank
 
+[![DOI](https://zenodo.org/badge/145631585.svg)](https://zenodo.org/badge/latestdoi/145631585)
+
 County level word and topic loading derived from a 10% Twitter sample from 2009-2015. Anonymized linguistic features extracted from over 1.5 billion English U.S County mapped tweets.
 
 Read the full publication [here](http://wwbp.org/publications.html#p122). 
