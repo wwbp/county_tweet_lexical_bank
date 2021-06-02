@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/145631585.svg)](https://zenodo.org/badge/latestdoi/145631585)
 
+:warning: Due to problems with LFS, we are temporarily hosting the data [here](https://doi.org/10.5281/zenodo.3755050) at Zenodo.  
+
 County level word and topic loading derived from a 10% Twitter sample from 2009-2015. Anonymized linguistic features extracted from over 1.5 billion English U.S County mapped tweets.
 
 Read the full publication [here](http://wwbp.org/publications.html#p122). 
@@ -9,6 +11,8 @@ Read the full publication [here](http://wwbp.org/publications.html#p122).
 ## Data
 
 Available in both csv format and as a MySQL dump. All tables are in sparse (long) format.
+
+
 
 ### Unigrams
 
