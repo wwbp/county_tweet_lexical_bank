@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/145631585.svg)](https://zenodo.org/badge/latestdoi/145631585)
 
-:warning: Due to problems with LFS, we are temporarily hosting the data [here](https://doi.org/10.5281/zenodo.3755050) at Zenodo.  
+:warning: Due to problems with LFS, we are temporarily hosting the data [here](https://doi.org/10.5281/zenodo.4895623) at Zenodo.  
 
 County level word and topic loading derived from a 10% Twitter sample from 2009-2015. Anonymized linguistic features extracted from over 1.5 billion English U.S County mapped tweets.
 
